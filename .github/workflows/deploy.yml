@@ -24,9 +24,10 @@ jobs:
           cache-dependency-path: ./astroSite/package-lock.json
 
       - name: Install dependencies
+        # Sử dụng --legacy-peer-deps để GitHub không bị kẹt lỗi phiên bản như nãy
         run: |
           npm install --legacy-peer-deps
-          npm install @tailwindcss/postcss --legacy-peer-deps
+          npm install -D @tailwindcss/postcss --legacy-peer-deps
         working-directory: ./astroSite
 
       - name: Build Astro
