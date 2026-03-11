@@ -19,13 +19,14 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
-          # Nâng cấp lên Node 22 để khớp với yêu cầu của Astro
           node-version: 22
           cache: 'npm'
           cache-dependency-path: ./astroSite/package-lock.json
 
       - name: Install dependencies
-        run: npm install --legacy-peer-deps
+        run: |
+          npm install --legacy-peer-deps
+          npm install @tailwindcss/postcss --legacy-peer-deps
         working-directory: ./astroSite
 
       - name: Build Astro
