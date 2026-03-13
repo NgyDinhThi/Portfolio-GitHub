@@ -19,12 +19,15 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
+          # Sử dụng Node 22 theo yêu cầu của Astro 6 
           node-version: 22
-          cache: 'npm'
-          cache-dependency-path: ./astroSite/package-lock.json
 
       - name: Install dependencies
-        run: npm install --legacy-peer-deps
+        run: |
+          # Cài đặt các thư viện trong package.json
+          npm install --legacy-peer-deps
+          # Cài đặt bắt buộc các gói hạt nhân để xử lý Tailwind v4
+          npm install -D tailwindcss @tailwindcss/vite --legacy-peer-deps
         working-directory: ./astroSite
 
       - name: Build Astro
