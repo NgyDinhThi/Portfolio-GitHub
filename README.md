@@ -1,6 +1,6 @@
 # Portfolio — Nguyen Dinh Thi
 
-My personal portfolio  —  Backend Developer about BIM (Revit) and Game.
+My personal portfolio  —  Backend Developer about BIMand Game.
 
 🔗 **Xem trực tiếp:** https://ngydinhthi.github.io/Portfolio-GitHub
 
