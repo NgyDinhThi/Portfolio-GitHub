@@ -1,13 +1,12 @@
 # Portfolio — Nguyen Dinh Thi
 
-Trang portfolio cá nhân của tôi — một Backend Developer chuyên về tích hợp BIM (Revit) và phát triển game. Site giới thiệu kinh nghiệm, kỹ năng và các dự án tiêu biểu của tôi.
+My personal portfolio  —  Backend Developer about BIM (Revit) and Game.
 
 🔗 **Xem trực tiếp:** https://ngydinhthi.github.io/Portfolio-GitHub
 
 ## Giới thiệu
 
-Tôi là sinh viên năm cuối ngành Software Engineer tại Đại học Mỏ - Địa chất Hà Nội, hiện làm việc trong lĩnh vực phát triển backend hiệu năng cao và các công cụ đồng bộ dữ liệu chuyên dụng. Thế mạnh của tôi nằm ở giao điểm giữa backend truyền thống, tích hợp BIM và phát triển game.
-
+Đây là portfolio của tôi junior BE , chuyên về BIM dev và Game
 ## Công nghệ sử dụng
 
 - **Framework:** [Astro](https://astro.build)
